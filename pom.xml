@@ -133,6 +133,17 @@
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
+    <dependency>
+            <groupId>org.mule.modules</groupId>
+            <artifactId>mule-module-db</artifactId>
+            <version>${mule.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    <dependency>
+            <groupId>net.sf.squirrel-sql.plugins</groupId>
+            <artifactId>derby</artifactId>
+            <version>3.5.0</version>
+        </dependency>
     </dependencies>
 
 	<repositories>

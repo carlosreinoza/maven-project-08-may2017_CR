@@ -53,7 +53,6 @@ http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/jso
 			doc:name="Database - Query Floghts">
 			<db:parameterized-query><![CDATA[select * from flights]]></db:parameterized-query>
 		</db:select>
-		<json:object-to-json-transformer doc:name="Object to JSON" />
 	</flow>
 
 </mule>
